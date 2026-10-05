@@ -1,0 +1,49 @@
+# ============================================================
+# Секреты — НИКОГДА не коммитить
+# ============================================================
+bot_config_secret.py
+
+# Список подписчиков (личные VK ID)
+subscribers.json
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Логи
+*.log
+
+# ORCA-файлы (рабочие, не нужны в git)
+*.inp
+*.out
+*.gbw
+*.hess
+*.xyz
+*.trj.xyz
+*.engrad
+*.opt
+*.densities
+*.property.txt
+*.bas*
+*.pc*
+*.c/
+*.d/
+*.tmp
+*.tmp2
+
+# Исключение — примеры для документации
+!examples/*.inp.example
+
+# PyCharm
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini

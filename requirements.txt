@@ -1,0 +1,8 @@
+# ORCA Bot — зависимости
+# Установка: pip install -r requirements.txt
+
+# VK API (LongPoll + отправка сообщений)
+vk_api>=11.9.9
+
+# HTTP-клиент для vk_api
+requests>=2.31.0
